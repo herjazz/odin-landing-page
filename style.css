@@ -7,3 +7,17 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+html {
+  /* Set variables */
+  --light-grey: #E5E7EB;
+}
+
+.subdued {
+  color: var(--light-grey);
+}
+
+#quote {
+  background-color: --light-grey;
+}
+
