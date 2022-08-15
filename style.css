@@ -9,15 +9,42 @@
 }
 
 html {
-  /* Set variables */
-  --light-grey: #E5E7EB;
+  /* Set color variables */
+  --white: #F9FAF8;
+  --dark: #1F2937;
+  --subdued: #E5E7EB;
+  --button: #3882F6;
+}
+
+/* Typography */
+
+header,
+footer,
+.hero {
+  background-color: var(--dark);
+}
+
+#logo {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800; /* extra-bold */
+  color: var(--white);
+}
+
+#information h2 {
+  font-size: 24px;
+  color: var(--dark);
 }
 
 .subdued {
-  color: var(--light-grey);
+  color: var(--subdued);
 }
 
 #quote {
-  background-color: --light-grey;
+  background-color: var(--subdued);
 }
 
