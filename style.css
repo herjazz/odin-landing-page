@@ -16,11 +16,11 @@ html {
   --button: #3882F6;
 }
 
-/* Typography */
+/* Typography & Colours */
 
 header,
 footer,
-.hero {
+#hero {
   background-color: var(--dark);
 }
 
@@ -40,7 +40,8 @@ footer,
   color: var(--dark);
 }
 
-.subdued {
+.subdued,
+#signup p {
   color: var(--subdued);
 }
 
@@ -48,3 +49,11 @@ footer,
   background-color: var(--subdued);
 }
 
+#signup h2 {
+  font-weight: bold;
+  color: var(--white);
+}
+
+.copyright {
+  color: var(--white);
+}
