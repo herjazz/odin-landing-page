@@ -83,3 +83,19 @@ footer,
 .nav-links:active {
 
 }
+
+/* layout */
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  margin-left: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
