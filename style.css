@@ -102,3 +102,15 @@ header {
   display: flex;
   gap: 15px;
 }
+
+#hero {
+  padding-block: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text-container {
+   max-width: 500px;
+}
