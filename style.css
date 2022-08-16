@@ -16,6 +16,10 @@ html {
   --button: #3882F6;
 }
 
+body {
+  width: 80%;
+}
+
 /* Typography & Colours */
 
 header,
@@ -96,6 +100,7 @@ header nav {
 }
 
 .navbar {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
+  gap: 15px;
 }
