@@ -150,3 +150,12 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+figure {
+  max-width: 600px;
+}
+
+footer {
+  padding-block: 30px;
+  text-align: center;
+}
