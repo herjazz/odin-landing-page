@@ -73,6 +73,8 @@ button {
   background-color: var(--button);
   color: var(--white);
   font-weight: 800;
+  border-radius: 10px;
+  padding: 8px 24px;
 }
 
 #call {
