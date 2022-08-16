@@ -90,6 +90,10 @@ footer,
 
 /* layout */
 
+section {
+  padding-block: 50px;
+}
+
 header {
   padding-block: 30px;
   display: flex;
@@ -104,7 +108,6 @@ header {
 }
 
 #hero {
-  padding-block: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,4 +116,21 @@ header {
 
 .text-container {
    max-width: 500px;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#boxes {
+  display: flex;
+  gap: 30px;
+}
+
+#quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
