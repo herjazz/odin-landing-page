@@ -1,5 +1,5 @@
 /* style.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 * {
   margin: 0; 
@@ -51,6 +51,20 @@ footer,
 
 #quote {
   background-color: var(--subdued);
+}
+
+figure {
+  font-size: 36px;
+  color: var(--dark);
+}
+
+blockquote {
+  font-weight: 300;
+}
+
+figcaption {
+  text-align: end;
+  font-weight: 800;
 }
 
 #signup h2 {
