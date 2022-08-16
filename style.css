@@ -69,7 +69,17 @@ figcaption {
   padding-top: 20px;
 }
 
-#signup h2 {
+button {
+  background-color: var(--button);
+  color: var(--white);
+  font-weight: 800;
+}
+
+#call {
+  background-color: var(--button);
+}
+
+#call h2 {
   font-weight: bold;
   color: var(--white);
 }
@@ -153,6 +163,11 @@ header {
 
 figure {
   max-width: 600px;
+}
+
+#signup {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
