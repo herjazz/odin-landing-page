@@ -29,7 +29,7 @@ footer,
   color: var(--white);
 }
 
-.hero h1 {
+#hero h1 {
   font-size: 48px;
   font-weight: 800; /* extra-bold */
   color: var(--white);
@@ -56,4 +56,30 @@ footer,
 
 .copyright {
   color: var(--white);
+}
+
+/* Link styles */
+
+.nav-links {
+  text-decoration: none;
+}
+
+.nav-links:link {
+
+}
+
+.nav-links:visited {
+
+}
+
+.nav-links:focus {
+
+}
+
+.nav-links:hover {
+  color: var(--white);
+}
+
+.nav-links:active {
+
 }
