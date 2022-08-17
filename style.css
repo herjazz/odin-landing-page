@@ -15,10 +15,6 @@
   --button: #3882F6;
 }
 
-body {
-  /* margin: 0 auto; */
-}
-
 /* Typography & Colours */
 
 header,
@@ -111,24 +107,8 @@ button:hover {
   text-decoration: none;
 }
 
-.nav-links:link {
-
-}
-
-.nav-links:visited {
-
-}
-
-.nav-links:focus {
-
-}
-
 .nav-links:hover {
   color: var(--white);
-}
-
-.nav-links:active {
-
 }
 
 /* layout */
