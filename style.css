@@ -1,18 +1,18 @@
 /* style.css */
 
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 :root {
   /* Set color variables */
-  --white: #F9FAF8;
-  --dark: #1F2937;
-  --subdued: #E5E7EB;
-  --button: #3882F6;
+  --white: #f9faf8;
+  --dark: #1f2937;
+  --subdued: #e5e7eb;
+  --button: #3882f6;
 }
 
 /* Typography & Colours */
@@ -46,11 +46,15 @@ footer,
 
 .quote {
   background-color: var(--subdued);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 figure {
   font-size: 36px;
   color: var(--dark);
+  max-width: 600px;
 }
 
 blockquote {
@@ -86,6 +90,12 @@ button:hover {
 
 .call {
   background-color: var(--button);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  min-width: 1000px;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .call h2 {
@@ -138,11 +148,11 @@ header {
 }
 
 .hero .text-container {
-   max-width: 500px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 15px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .information {
@@ -156,28 +166,9 @@ header {
   gap: 30px;
 }
 
-.quote {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-figure {
-  max-width: 600px;
-}
-
 .signup {
   display: flex;
   justify-content: center;
-}
-
-.call {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  min-width: 1000px;
-  border-radius: 10px;
-  padding: 30px;
 }
 
 footer {
