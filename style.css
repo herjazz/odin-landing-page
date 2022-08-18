@@ -35,7 +35,8 @@ footer,
 }
 
 .information h2 {
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 36px;
   color: var(--dark);
 }
 
