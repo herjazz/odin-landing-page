@@ -45,7 +45,7 @@ footer,
   color: var(--subdued);
   text-align: right;
 }
- 
+
 .subdued,
 .signup p {
   color: var(--subdued);
@@ -172,6 +172,13 @@ header {
 .boxes {
   display: flex;
   gap: 30px;
+}
+
+.box img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .signup {
