@@ -20,7 +20,8 @@
   --dark: #1f2937;
   --subdued: #e5e7eb;
   --button: #3882f6;
-  /* Set dimenstion variables */
+
+  /* Set dimension variables */
   --content-width: 1030px;
 }
 
@@ -148,7 +149,6 @@ section {
 header {
   padding-block: 30px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 
