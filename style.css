@@ -1,5 +1,11 @@
 /* style.css */
 
+/* TODO:
+ * - sort out sizing when viewport changes
+ * - change some sizes to relative sizes
+ * - make page responsive:  "mobile first"
+ */
+
 * {
   margin: 0;
   padding: 0;
