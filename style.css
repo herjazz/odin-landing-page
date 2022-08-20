@@ -3,7 +3,7 @@
 /* TODO:
  * - sort out sizing when viewport changes
  * - change some sizes to relative sizes
- * - make page responsive:  "mobile first"
+ * - make page responsive: "mobile first"
  */
 
 * {
@@ -184,6 +184,10 @@ header {
   flex-direction: column;
   align-items: flex-start;
   gap: 15px;
+}
+
+.hero-image {
+  flex: auto;
 }
 
 .information {
