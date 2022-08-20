@@ -13,6 +13,8 @@
   --dark: #1f2937;
   --subdued: #e5e7eb;
   --button: #3882f6;
+  /* Set dimenstion variables */
+  --content-width: 1030px;
 }
 
 /* Typography & Colours */
@@ -147,7 +149,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1030px;
+  width: var(--content-width);
 }
 
 .navbar {
@@ -158,9 +160,16 @@ header {
 
 .hero {
   display: flex;
-  align-items: center;
   justify-content: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   gap: 20px;
+  width: var(--content-width);
 }
 
 .hero .text-container {
@@ -180,6 +189,7 @@ header {
 
 .boxes {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
