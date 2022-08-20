@@ -139,8 +139,15 @@ section {
 header {
   padding-block: 30px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1030px;
 }
 
 .navbar {
